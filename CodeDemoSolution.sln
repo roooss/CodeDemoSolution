@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{CCE0E1B4-1425-4A68-BACE-CB1870060301}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{B39903D1-5A9E-4CD9-B7B3-10DECF6882E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic Layer", "Logic Layer", "{7E8D6312-0AAF-4377-8898-ECEA99C2BDBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B779BA4E-1B27-47C1-A260-B9A0BE99E3A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeDemoSolution.Model", "Lib\CodeDemoSolution.Model\CodeDemoSolution.Model.csproj", "{4EBDD77D-40F6-45DA-9823-259C39DC1B9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeDemoSolution.DataAccess.Interfaces", "Lib\CodeDemoSolution.DataAccess.Interfaces\CodeDemoSolution.DataAccess.Interfaces.csproj", "{BDDB7BE1-9989-441A-A0AE-7E33EC78664E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeDemoSolution.DataAccess", "Lib\CodeDemoSolution.DataAccess\CodeDemoSolution.DataAccess.csproj", "{0047B152-C57B-4BB2-A6B1-3989CCDDF58D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SqlScripts", "SqlScripts", "{5DB2DFB9-AC82-46F8-BC05-C1EE976D3FB5}"
+	ProjectSection(SolutionItems) = preProject
+		SqlScripts\1. Initial Db Setup.sql = SqlScripts\1. Initial Db Setup.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeDemoSolution.Web", "Web\CodeDemoSolution.Web\CodeDemoSolution.Web.csproj", "{97732667-9E99-4F3D-B5A7-ECA4CE5F1BDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeDemoSolution.BusinessLogic", "Lib\CodeDemoSolution.BusinessLogic\CodeDemoSolution.BusinessLogic.csproj", "{7F97505E-A4AC-4C58-BEC6-10859FD3BB49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EBDD77D-40F6-45DA-9823-259C39DC1B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EBDD77D-40F6-45DA-9823-259C39DC1B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EBDD77D-40F6-45DA-9823-259C39DC1B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EBDD77D-40F6-45DA-9823-259C39DC1B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDDB7BE1-9989-441A-A0AE-7E33EC78664E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDB7BE1-9989-441A-A0AE-7E33EC78664E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDB7BE1-9989-441A-A0AE-7E33EC78664E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDB7BE1-9989-441A-A0AE-7E33EC78664E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0047B152-C57B-4BB2-A6B1-3989CCDDF58D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0047B152-C57B-4BB2-A6B1-3989CCDDF58D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0047B152-C57B-4BB2-A6B1-3989CCDDF58D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0047B152-C57B-4BB2-A6B1-3989CCDDF58D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97732667-9E99-4F3D-B5A7-ECA4CE5F1BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97732667-9E99-4F3D-B5A7-ECA4CE5F1BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97732667-9E99-4F3D-B5A7-ECA4CE5F1BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97732667-9E99-4F3D-B5A7-ECA4CE5F1BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F97505E-A4AC-4C58-BEC6-10859FD3BB49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F97505E-A4AC-4C58-BEC6-10859FD3BB49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F97505E-A4AC-4C58-BEC6-10859FD3BB49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F97505E-A4AC-4C58-BEC6-10859FD3BB49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4EBDD77D-40F6-45DA-9823-259C39DC1B9D} = {B39903D1-5A9E-4CD9-B7B3-10DECF6882E1}
+		{BDDB7BE1-9989-441A-A0AE-7E33EC78664E} = {B39903D1-5A9E-4CD9-B7B3-10DECF6882E1}
+		{0047B152-C57B-4BB2-A6B1-3989CCDDF58D} = {B39903D1-5A9E-4CD9-B7B3-10DECF6882E1}
+		{97732667-9E99-4F3D-B5A7-ECA4CE5F1BDE} = {CCE0E1B4-1425-4A68-BACE-CB1870060301}
+		{7F97505E-A4AC-4C58-BEC6-10859FD3BB49} = {7E8D6312-0AAF-4377-8898-ECEA99C2BDBD}
+	EndGlobalSection
+EndGlobal
